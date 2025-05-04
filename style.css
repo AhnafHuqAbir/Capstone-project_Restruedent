@@ -94,3 +94,34 @@ nav li a:hover {
 .slider nav a:hover {
     opacity: 1;
 }
+
+.header {
+    text-align: center;
+    color: rgb(101, 101, 101);
+    text-shadow: 2px 2px 5px;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.container-1 {
+    display: flex;
+    margin: 200px;
+    gap: 2rem;
+}
+
+.Contact {
+    flex: 3;
+}
+
+.Contact article {
+    background-color: gray;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 36px black;
+    border-radius: 8px;
+}
+
+.Contact article img {
+    width: 100%;
+    border-radius: 10px;
+}
