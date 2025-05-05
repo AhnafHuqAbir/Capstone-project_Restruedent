@@ -105,7 +105,7 @@ nav li a:hover {
 
 .container-1 {
     display: flex;
-    margin: 200px;
+    margin: 2rem;
     gap: 2rem;
 }
 
@@ -114,10 +114,10 @@ nav li a:hover {
 }
 
 .Contact article {
-    background-color: gray;
+    background-color: rgb(197, 209, 214);
     padding: 1rem;
     margin-bottom: 2rem;
-    box-shadow: 0 0 36px black;
+    box-shadow: 0 0 36px gray;
     border-radius: 8px;
 }
 
