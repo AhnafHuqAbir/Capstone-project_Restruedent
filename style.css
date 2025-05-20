@@ -32,7 +32,7 @@ body {
 nav ul {
     list-style-type: none;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 nav li a {
@@ -44,6 +44,8 @@ nav li a {
 
 nav li a:hover {
     font-weight: bold;
+    cursor: pointer;
+    color: rgb(73, 36, 36);
 }
 
 .container {
@@ -164,4 +166,119 @@ b {
 
 i {
     font-size: 10px;
+}
+
+.active {
+    color: rgb(67, 41, 22);
+    padding: 2px;
+    border: 2px solid rgb(67, 41, 22);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.container-set_manu {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: aliceblue;
+    gap: 20px;
+}
+
+.manu-card {
+    background: transparent;
+    border: 3px solid wheat;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgb(138, 129, 129);
+    color: rgb(114, 89, 40);
+}
+
+.manu-card p {
+    color: rgb(63, 33, 33);
+    letter-spacing: 1px;
+}
+
+.manu-card:hover {
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgb(37, 36, 36);
+}
+
+.manu-card p:hover {
+    text-decoration: underline;
+}
+
+form {
+    color: #333;
+    display: grid;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 10px;
+    width: 100%;
+    border: 3px solid rgb(198, 208, 235);
+    border-radius: 15px;
+    background-color: rgb(227, 228, 241);
+    margin-top: 10px;
+    cursor: progress;
+}
+
+form button {
+    background: transparent;
+    border: 2px solid rgba(174, 218, 237, 0.953);
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(128, 133, 232);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    box-shadow: 0 0 10px;
+}
+
+.footer-header {
+    font-family: cursive;
+    font-size: 25px;
+    margin: 0;
+    padding: 0%;
+    cursor: pointer;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.caption {
+    margin: 0;
+    font-family: monospace;
+    cursor: pointer;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.mail {
+    text-decoration: none;
+    color: rgb(178, 151, 101);
+}
+
+.footer_copy {
+    text-align: center;
+    cursor: pointer;
+    text-shadow: 2px 1px 1px aliceblue;
+    color: midnightblue;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+footer {
+    background-color: skyblue;
 }
